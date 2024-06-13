@@ -73,3 +73,21 @@ void search(string element, Node *&parent, Node *&currentNode)
     }
 }
 
+void inorder(Node *ptr) // function to perform inorder traversal
+{
+    if(ROOT == NULL)
+
+    {
+        cout << "Tree is empty" << endl;
+        return;
+    }
+
+    if (ptr != NULL)
+    {
+        inorder(ptr->leftchild);
+        cout << ptr->info << " ";
+        inorder(ptr->rightchild);
+    }
+
+}
+
