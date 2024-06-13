@@ -30,7 +30,8 @@ public:
 
     void Insert(string element)    //insert a node to the tree
     {
-        Node* newnode = new Node(element, nullptr, nullptr);    //allocate memory for the node
+        Node* newNode = new Node(element, nullptr, nullptr);    //allocate memory for the node
+        newNode ->info = element; //set the value of the node
     }
 };
 
