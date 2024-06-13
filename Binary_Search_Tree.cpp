@@ -6,8 +6,8 @@ using namespace std;
 class Node
 {
 public:
-    int data;
-    Node *left;
-    Node *right;
+    string info;
+    Node *leftchild;
+    Node *rightchild;
 
 
