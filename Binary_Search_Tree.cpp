@@ -91,3 +91,20 @@ void inorder(Node *ptr) // function to perform inorder traversal
 
 }
 
+void preorder(Node *ptr) // function to perform preorder traversal
+{
+    if(ROOT == NULL)
+
+    {
+        cout << "Tree is empty" << endl;
+        return;
+    }
+
+    if (ptr != NULL)
+    {
+        cout << ptr->info << " ";
+        preorder(ptr->leftchild);
+        preorder(ptr->rightchild);
+    }
+}
+
