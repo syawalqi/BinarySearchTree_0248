@@ -10,4 +10,6 @@ public:
     Node *leftchild;
     Node *rightchild;
 
+    Node(string data)
+
 
