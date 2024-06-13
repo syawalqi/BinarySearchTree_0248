@@ -10,6 +10,6 @@ public:
     Node *leftchild;
     Node *rightchild;
 
-    Node(string data)
+    Node(string i, Node *l, Node *r )
 
 
