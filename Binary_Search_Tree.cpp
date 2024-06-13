@@ -38,6 +38,8 @@ public:
         Node* parrent = nullptr;
         Node* currentNode = nullptr;
         search(element, parent, currentNode);  //locate the node which will be the parent of the new node
+
+        if(parrent == nullptr)    //if the tree is empty
     }
 };
 
